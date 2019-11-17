@@ -9,7 +9,7 @@ const AppRouter = () => (
             <SideBar />
             <main style={{position:"absolute", left: "235px", top:"70px"}}>
                 <Switch>
-                    <Route path="/calendar" component={Calendar} exact />
+                    <Route path="/calendar" component={Calendar} />
                 </Switch>
             </main>
         </div>   
