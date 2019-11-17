@@ -5,7 +5,6 @@ import moment from 'moment';
 import Modal from './Modal';
 import Paper from '@material-ui/core/Paper';
 
-
 import "react-big-calendar/lib/css/react-big-calendar.css";
 
 const localizer = momentLocalizer(moment);

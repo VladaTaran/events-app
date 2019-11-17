@@ -1,14 +1,15 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SideBar from '../SideBar/SideBar';
 import Calendar from '../Calendar/Calendar';
 
 const AppRouter = () => (
-    <Router basename='/'>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
             <SideBar />
             <main style={{position:"absolute", left: "235px", top:"70px"}}>
                 <Switch>
+                    <Route exact path="/" component={Calendar} />
                     <Route path="/calendar" component={Calendar} />
                 </Switch>
             </main>
