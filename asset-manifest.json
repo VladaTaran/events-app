@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/events-app/static/css/main.57f89e81.chunk.css",
-    "main.js": "/events-app/static/js/main.d1df163f.chunk.js",
-    "main.js.map": "/events-app/static/js/main.d1df163f.chunk.js.map",
+    "main.js": "/events-app/static/js/main.bb9dc0ac.chunk.js",
+    "main.js.map": "/events-app/static/js/main.bb9dc0ac.chunk.js.map",
     "runtime-main.js": "/events-app/static/js/runtime-main.23f86df4.js",
     "runtime-main.js.map": "/events-app/static/js/runtime-main.23f86df4.js.map",
     "static/css/2.25b83785.chunk.css": "/events-app/static/css/2.25b83785.chunk.css",
     "static/js/2.67229269.chunk.js": "/events-app/static/js/2.67229269.chunk.js",
     "static/js/2.67229269.chunk.js.map": "/events-app/static/js/2.67229269.chunk.js.map",
     "index.html": "/events-app/index.html",
-    "precache-manifest.b1ac55cb36b3b92b344e8ce80afac659.js": "/events-app/precache-manifest.b1ac55cb36b3b92b344e8ce80afac659.js",
+    "precache-manifest.93ed321bebc1d772b43b5e052358fb48.js": "/events-app/precache-manifest.93ed321bebc1d772b43b5e052358fb48.js",
     "service-worker.js": "/events-app/service-worker.js",
     "static/css/2.25b83785.chunk.css.map": "/events-app/static/css/2.25b83785.chunk.css.map",
     "static/css/main.57f89e81.chunk.css.map": "/events-app/static/css/main.57f89e81.chunk.css.map"
@@ -19,6 +19,6 @@
     "static/css/2.25b83785.chunk.css",
     "static/js/2.67229269.chunk.js",
     "static/css/main.57f89e81.chunk.css",
-    "static/js/main.d1df163f.chunk.js"
+    "static/js/main.bb9dc0ac.chunk.js"
   ]
 }
