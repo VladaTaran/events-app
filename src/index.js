@@ -6,7 +6,7 @@ import AppRouter from 'app/Router/Router';
 
 ReactDOM.render(
   // <MuiThemeProvider>
-    <AppRouter basename={process.env.PUBLIC_URL}/>,document.getElementById('root')
+    <AppRouter />,document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
