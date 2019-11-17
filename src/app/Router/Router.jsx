@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import SideBar from '../SideBar/SideBar';
 import Calendar from '../Calendar/Calendar';
 
