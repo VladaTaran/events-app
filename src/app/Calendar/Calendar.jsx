@@ -25,9 +25,8 @@ const Calendar = () => {
     const changeEventsWithDate = savedEvents && JSON.parse(savedEvents).map(event => {
       event.start = new Date(event.start);
       event.end = new Date(event.end);
-      return event;
     });
-    parseEvents(changeEventsWithDate);
+    savedEvents && parseEvents(changeEventsWithDate);
  }
   useEffect(()=>{
     getEvents()
