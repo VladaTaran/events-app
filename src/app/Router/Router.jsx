@@ -4,7 +4,7 @@ import SideBar from '../SideBar/SideBar';
 import Calendar from '../Calendar/Calendar';
 
 const AppRouter = () => (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
         <div>
             <SideBar />
             <main style={{position:"absolute", left: "235px", top:"70px"}}>
