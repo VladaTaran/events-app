@@ -1,10 +1,10 @@
 import React from 'react';
-import { HashRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SideBar from '../SideBar/SideBar';
 import Calendar from '../Calendar/Calendar';
 
 const AppRouter = () => (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
         <div>
             <SideBar />
             <main style={{position:"absolute", left: "235px", top:"70px"}}>
